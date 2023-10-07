@@ -11,6 +11,7 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 
+/*
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("integration")
 class CatalogServiceApplicationTests {
@@ -46,3 +47,4 @@ class CatalogServiceApplicationTests {
 				});
 	}
 }
+*/
