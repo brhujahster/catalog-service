@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2021.0.8</spring-cloud.version>
+		<project.image.name>${project.name}</project.image.name>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -96,6 +97,7 @@
 					<layers>
 						<enabled>true</enabled>
 					</layers>
+					<imageName>${project.image.name}</imageName>
 				</configuration>
 			</plugin>
 		</plugins>
