@@ -39,6 +39,7 @@ public class BookJsonTests {
                             "isbn": "1234567890",
                             "title": "Title",
                             "author": "Author",
+                            "publisher" : "polarsophia",
                             "price": 9.90
                         }
                        """;
